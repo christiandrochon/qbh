@@ -1,0 +1,72 @@
+# Environnements virtuels
+./.venv/
+./env/
+./venv/
+./ENV/
+./__pycache__/
+
+# Fichiers compilés Python
+*.py[cod]
+*$py.class
+
+# Dossiers de cache et de logs
+./.Python
+*.pyo
+*.pyd
+*.log
+*.cache
+*.egg-info/
+*.egg
+
+# Caches de tests
+./.pytest_cache/
+./.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# IDEs et éditeurs
+# PyCharm
+./.idea/
+# VSCode
+./.vscode/
+# Jupyter Notebook
+./.ipynb_checkpoints/
+
+# Configuration système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers de sortie et compilés
+*.so
+*.dylib
+*.dll
+*.o
+*.out
+
+# Fichiers de configuration
+.env
+.env.local
+*.ini
+*.toml
+
+# Fichiers audio, vidéo, images générés
+*.wav
+*.mp3
+*.mp4
+*.png
+*.jpg
+*.jpeg
+
+# Fichiers de sortie
+*.pdf
+*.csv
+*.xls
+*.xlsx
+*.sqlite3
+*.db
+
+# Configuration spécifique de l'application
+./instance/
